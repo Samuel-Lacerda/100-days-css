@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+*{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 98vh;
+    background-image: linear-gradient(to top right,#433BA0,#4EC4C9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-number{
+    display: flex;
+    color: white;
+}
+
+.days{
+    color: white;
+}
+
+.challenge{
+    color: white;
+}
